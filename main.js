@@ -38,3 +38,48 @@
 
 // 4-masala
 
+// let number=Number(prompt("Sonni kiriting: "))
+// function getDivisors(num) {
+//  let divisors = [];
+//  for (let i = 1; i <= num; i++) {
+//      if (num % i === 0) {
+//          divisors.push(i);
+//      }
+//  }
+//  return divisors;
+// }
+
+// let result = getDivisors(number);
+// console.log(result);
+
+// 5-masala
+
+// function capitalizeFirstLetter(Letter) {
+//  let words = Letter.split(" ");
+//  for (let i = 0; i < words.length; i++) {
+//      let word = words[i];
+//      words[i] = word.charAt(0).toUpperCase() + word.slice(1);
+//  }
+//  return words.join(" ");
+// }
+// let Text = "my fullname is egamberdiyev tolibjon"
+
+// let result = capitalizeFirstLetter(Text);
+// console.log(result);
+
+// 6-masala
+
+let word = prompt("so'zni kiritng")
+function getMiddleWord(str) {
+ let length = str.length;
+ if (length % 2 === 0) {
+     return str.substring(length / 2 - 1, length / 2 + 1);
+ } else {
+     return str.charAt(Math.floor(length / 2));
+ }
+}
+
+
+let result= getMiddleWord(word);
+console.log(result);
+
